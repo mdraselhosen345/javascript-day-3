@@ -74,12 +74,19 @@
 //     }
 // },1000);
     
-let count = 1;
-let timer = setInterval(function(){
-    console.log(count);
-    count++;
-    if(count > 100){
-        clearInterval(timer);
+// let count = 1;
+// let timer = setInterval(function(){
+//     console.log(count);
+//     count++;
+//     if(count > 100){
+//         clearInterval(timer);
+//     }
+// },1000);
+
+for(let i=1; i<=40; i++){
+    if(i%2===0){
+        console.log(i)
     }
-},1000);
+}
+
     
